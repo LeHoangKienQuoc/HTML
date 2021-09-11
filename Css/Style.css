@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	height: 1900px;
+	background-color: antiquewhite;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+.noidung{
+	width: 100%;
+	height: 900px;
+	background: #DB4B4D;
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+}
+.noidung1{
+	width: 100%;
+	height: 900px;
+	background-image: url("../Img/bg_abyss_1.png");
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+}
+.noidung2{
+	width: 100%;
+	height: 900px;
+	background-image: url("../Img/bg_rhodescom.png");
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+}
+.noidung3{
+	width: 100%;
+	height: 900px;
+	background: #1B1818;
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+	background-size: 100vw;
+	display: flex;
+}
+.noidung4{
+	width: 100%;
+	height: 900px;
+	background-image: url("../Img/bg.81e03143.jpg");
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+}
+.noidung5{
+	width: 100%;
+	height: 800px;
+	background: #000000;
+	font-size: 40pt;
+	padding: 100px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	overflow: hidden;
+}
+.banner{
+	height: 140px;
+	display: flex;	
+	box-sizing: border-box;
+	padding: 5px;
+}
+banner:hover{
+	height: 200px;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background: #1B1818;
+	position: fixed;	
+	transform: rotate(-90deg);
+	margin-left:-48.5%;
+	margin-top: -1.5%;
+}
+.logoo{
+	animation-name:logoo;
+	animation-duration: 4s;
+	animation-delay: 3s;
+	width: 270px;
+	margin-top: -100px;
+	animation:logoo 3s linear forwards;
+	opacity: 0;
+	overflow: hidden;
+}
+.logoo2{
+	animation-name:logoo2;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	width: 270px;
+	margin-top: -100px;
+	animation:logoo2 3s linear forwards;
+	opacity: 0;
+	overflow: hidden;
+}
+
+@keyframes logoo{
+	0% {margin-top: -1000px;opacity: 0}
+	100% {margin-top: -100px;opacity: 100%}
+}
+
+@keyframes logoo2{
+	0% {margin-top: 1000px;opacity: 0;}
+	100% {margin-top: -100px;opacity: 100%}
+}
+#amiya{
+	margin-left: 15%;
+}
+a:hover{
+	opacity: 25%;
+}
+#logo{
+	margin-left: 1000px;
+}
+/*?*/
+#logo{
+	animation:logo 2s linear 	infinite;
+	opacity:0;
+}
+
+
+
+
+@keyframes logo{
+	0%{top:-50px;}
+	10%, 90%{opacity:1; top:5px;}
+}
+/*?*/
+
+#Tieude{
+	margin-left: 15%;
+	margin-right: auto;
+	box-sizing: border-box;
+	padding: 130px 0 0 0;
+}
+
+/*chep					;*/
+/*menu*/
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px 37px;
+  background-color: #666;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: aqua;
+  color: white;
+}
+#myDIV{
+	margin-left: 20px;
+}

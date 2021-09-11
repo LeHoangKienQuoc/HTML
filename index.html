@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="Css/Style.css" rel="stylesheet">
+	<link rel="stylesheet" href="Css/animate.css">
+  	<link rel="stylesheet" href="Css/site.css">
+ 	 
+</head>
+
+<body>
+	<div class="menu"> 
+	<div id="myDIV">
+  		<button class="btn"><a style="text-decoration: none; color: aliceblue" href="#nd01">Trang Chủ</a></button>
+  		<button class="btn active"><a style="text-decoration: none; color: aliceblue" href="#nd02">Giới Thiệu</a></button>
+ 		<button class="btn"><a style="text-decoration: none; color: aliceblue" href="#nd03">Liên Hệ</a></button>
+ 		<button class="btn"><a style="text-decoration: none; color: aliceblue" href="#nd04">Dịch Vụ</a></button>
+		<button class="btn"><a style="text-decoration: none; color: aliceblue" href="#nd05">Sự Kiện</a></button>
+	</div>
+	</div>
+	<div class="container">
+<!--		1-->
+		<div class="noidung1" id="nd01">
+			<div id="logo">
+				<a href="#"><img src="Img/WGtZwAAAAASUVORK5CYII_.png"></a>
+				<a href="#"><img src="Img/wGQAAAABJRU5ErkJggg__.png"></a>
+				<a href="#"><img src="Img/voXdVla93s8Gv8AAAAASUVORK5CYII_.png"></a>
+				<a href="#"><img src="Img/QudQK2TWMzrxwAAAABJRU5ErkJggg__.png"></a>
+				<a href="#"><img src="Img/oFOTJrIIGBHs3sCS8Jtt1hjsOmA_0CcSnxfp1ES6M4BJwa4ClgIjo4IWZwX9BZcBLCGIqT3ZAAAAAElFTkSuQmCC.png"></a>
+			</div>
+						
+			<img class="wow fadeInDown" data-wow-duration="4s" src="Img/logo02.924e2f2a.png" style="margin-right: auto; margin-left: 35%;margin-top: 74px">
+				<img class="wow fadeInUp" data-wow-duration="5s" id="Tieude"
+					 src="Img/oypoJWHkr0l4crCEWjyLVRiY_9suJaql1RlN9Yy3JdKVMZoSiKoihKMvwfO4nuRFzhdkMAAAAASUVORK5CYII_.png">
+			<a href="#"><img src="Img/3.fa510ad1.png" style="width:140px; margin-left: 37%; margin-top: 5.1%"></a>
+			<a href="#"><img src="Img/1.9982db6b.png" style="width:150px; float: right; margin-right: 37%;margin-top: 5%"></a>
+
+		</div>
+		
+<!--		2-->
+		<div class="noidung2" id="nd02">
+			
+				<img id="amiya" src="Img/avg_6d5_amiya.png" >
+				<img src="Img/avg_6D5_3.png" style="width: 600px;float: right">
+				
+				
+		
+			<div>
+					<p style="font-size: 15pt;float: right;width: 500px;color:black ;opacity: 100%;
+	margin-top: -450px;">
+						Nhân vật chính trên thực tế của cốt truyện Arknights và là trợ lý đắc lực nhất 	của người chơi. Đối với một đơn vị miễn phí được giao cho bạn khi bắt đầu trò chơi, Amiya là một Caster 5 ★ tốt một cách đáng ngạc nhiên. Trên thực tế, cô ấy là một trong những người làm bánh DPS đơn mục tiêu tốt hơn trong Arknights..
+					</p>
+				</div>
+		</div>
+		
+<!--		3-->
+		<div class="noidung3" id="nd03">
+		
+			<div>
+				<a href="#"><img class="logoo" src="Img/1-off.0f9e3427.png"></a>
+				
+			</div>
+			<div>
+				<a href="#"><img class="logoo2" src="Img/2-off.a6ffbc08.png"></a>
+				
+			</div>
+			<div>
+				<a href="#"><img class="logoo" src="Img/3-off.665af5d1.png"></a>
+				
+			</div>
+			<div>
+				<a href="#"><img class="logoo2" src="Img/4-off.e6eaae27.png"></a>
+				
+			</div>
+			<div>
+				<a href="#"><img class="logoo" src="Img/5-off.e3adcc19.png"></a>
+				
+			</div>
+		
+		</div>
+		
+<!--		4-->
+		<div class="noidung4" id="nd04">
+		
+		
+		
+		
+		</div>
+<!--	 5-->		
+		<div class="noidung5" id="nd05">
+			<div style="margin-top: -70px">
+				<a href="#"><img class="banner" src="Img/91349b06b704dd716d9838a268cf302e.png"></a>
+				<a href="#"><img class="banner" src="Img/b16c4dcd409d499e24f60b26587742b0.jpg"></a>
+				<a href="#"><img class="banner" src="Img/81970367d2c01e8aa257f5d33b510316.jpg"></a>
+				<a href="#"><img class="banner" src="Img/82549afc83e69ea291752f27b9cd75e6.jpg"></a>
+				<a href="#"><img class="banner" src="Img/05aae0af4d76c7d0e3b7941ade60ff71.jpg"></a>
+			</div>
+		
+		</div>
+	</div>
+	
+
+<!--	Menu-->
+	<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+/*		 animation do tre*/
+		 <script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>
